@@ -4,7 +4,7 @@ class php {
 			"php5-cli",
 			"php-pear"
 		]:
-			ensure => installed;
+			ensure => latest;
 	}
 }
 
